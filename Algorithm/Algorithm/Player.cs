@@ -20,8 +20,7 @@ namespace Algorithm
         public int PosX { get; private set; }
 
         Board _board;
-        Random _rand = new Random();
-
+        
         List<Pos> _points = new List<Pos>();
 
         enum Dir

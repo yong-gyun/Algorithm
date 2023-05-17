@@ -22,9 +22,9 @@ namespace Excercise
 
         public void Run_Dijkstra(int start)
         {
-            bool[] visited = new bool[6];   //이젠 찾았다가 아닌 방문했다가 중요함
-            int[] distance = new int[6];    //정점에서 정점으로 이동하는데에 필요한 가중치를 기입
-            
+            bool[] visited = new bool[6];       //이젠 찾았다가 아닌 방문했다가 중요함
+            int[] distance = new int[6];        //정점에서 정점으로 이동하는데에 필요한 가중치를 기입
+            Array.Fill(distance, Int32.MaxValue);
         }
     }
 }
