@@ -23,15 +23,7 @@ namespace Excercise
     {
         static void Main(string[] args)
         {
-            PriorityQueue<Knight> priorityQueue = new PriorityQueue<Knight>();
-            priorityQueue.Push(new Knight() { Id = 10 });
-            priorityQueue.Push(new Knight() { Id = 20 });
-            priorityQueue.Push(new Knight() { Id = 30 });
-            priorityQueue.Push(new Knight() { Id = 15 });
-            priorityQueue.Push(new Knight() { Id = 40 });
 
-            while(priorityQueue.Count() > 0)
-                Console.WriteLine(priorityQueue.Pop().Id);
         }
     }
 }
